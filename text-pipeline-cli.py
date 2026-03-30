@@ -23,4 +23,4 @@ result = words
 for name in operations:
     result = ops[name](result)
 
-print(result)
+print('\nresult:', ', '.join(result))
